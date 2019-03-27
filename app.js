@@ -89,6 +89,8 @@ var retrievelocalStorge = function () {
   if (oldJokes === null) {
     oldJokes = jokes
     savelocalStorage()
+  } else {
+    jokes = oldJokes
   }
 }
 // -------
